@@ -8,7 +8,8 @@ var facts = [
     'Именем Пушкина назван бывший город Царское Село и ряд других населённых пунктов.'
 ];
 var kol = facts.length
-
+localStorage.run = 0
+    setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
 if (localStorage.restart != 1){
     localStorage.run = 0
     setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
